@@ -110,6 +110,7 @@ typedef enum _rknn_tensor_type {
     RKNN_TENSOR_INT8,                                   /* data type is int8. */
     RKNN_TENSOR_UINT8,                                  /* data type is uint8. */
     RKNN_TENSOR_INT16,                                  /* data type is int16. */
+    RKNN_TENSOR_BOOL,
 
     RKNN_TENSOR_TYPE_MAX
 } rknn_tensor_type;

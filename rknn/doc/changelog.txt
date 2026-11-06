@@ -1,0 +1,9 @@
+2024-12-26
+版本: v1.7.7
+更新内容：
+1. 增加多 bool 类型的支持；
+2. 优化在线预编译内存使用情况；
+3. 增加对 GatherElements, RMSNorm 算子的支持；
+4. 修复含自定义算子模型destroy时内存泄露的问题；
+5. 修复 RKNN_TENSOR_NHWC 转 RKNN_TENSOR_NCHW 时，batch维处理不对的问题。
+

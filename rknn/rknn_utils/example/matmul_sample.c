@@ -105,7 +105,7 @@ int main
 {
     if(argc != 3)
     {
-        printf("Info: Get L2 distance for matrix A: Kx1, matrix B: KxN\n");
+        printf("Info: Get L2 distance for matrix A: 1xK, matrix B: KxN\n");
         printf("Usage: %s <K> <N>\n",argv[0]);
         return -1;
     }

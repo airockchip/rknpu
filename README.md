@@ -15,7 +15,7 @@
 **注意：**    
 
 - **RK3399Pro用户态的库及驱动不在本工程**，请参考：https://github.com/airockchip/RK3399Pro_npu
-- RK3566/RK3568/RK3588/RV1103/RV1106请参考：https://github.com/rockchip-linux/rknpu2
+- RK3562/RK3566/RK3568/RK3576/RK3588/RV1103/RV1103B/RV1106/RV1106B 请参考：https://github.com/airockchip/rknn-toolkit2/tree/master/rknpu2
 
 
 
@@ -23,8 +23,8 @@
 
 ​    在使用RKNN API进行部署之前，需要使用RKNN Toolkit将原始的模型转化成rknn模型。
 
-- RK1808/RK1806/RV1109/RV1126/RK3399Pro 使用： https://github.com/rockchip-linux/rknn-toolkit
-- RK3566/RK3568/RK3588/RV1103/RV1106使用：https://github.com/rockchip-linux/rknn-toolkit2
+- RK1808/RK1806/RV1109/RV1126/RK3399Pro 使用： https://github.com/airockchip/rknn-toolkit
+- RK3562/RK3566/RK3568/RK3576/RK3588/RV1103/RV1103B/RV1106/RV1106B 使用：https://github.com/airockchip/rknn-toolkit2
 
 ​    具体的使用说明请参考相应的网址。
 
@@ -34,7 +34,7 @@
 
 ### NPU驱动目录说明
 
-NPU的驱动在$SDK/external/rknpu/drivers/目录下或者https://github.com/rockchip-linux/rknpu/tree/master/drivers
+NPU的驱动在$SDK/external/rknpu/drivers/目录下或者https://github.com/airockchip/rknpu/tree/master/drivers
 
 其中的编译、安装规则参考$SDK/buildroot/package/rockchip/rknpu/rknpu.mk
 
